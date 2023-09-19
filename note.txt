@@ -1,0 +1,19 @@
+django-admin startproject webbanhang
+--webbanhang là thư mục gốc
+django-admin startapp app
+app là thư mục con của webbanhang
+
+
+Thư mục app>views chứa các đường dẫn trỏ tới các thư mục
+Thư mục app>urls định nghĩa các đường dẫn
+
+
+python manage.py migrate
+python manage.py runserver
+
+
+tài khoản superuser: username:admin 
+                     pass:123
+
+
+bắt đầu bài 16
